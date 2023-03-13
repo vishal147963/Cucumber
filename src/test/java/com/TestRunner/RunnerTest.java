@@ -7,11 +7,19 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features= {"AllFeatureFile/xyz.feature"},
-		glue= {"Tutorial2"},
+		features= {"AllFeatureFile/FreeCRM.feature"},
+		glue= {"Tutorial6"},
 		dryRun=false,
-		monochrome=true
+		monochrome=true,
+				plugin= {
+						"html:Reports/abc.html",
+						"json:Reports/abc.json",
+						"junit:Reports/abc.xml",
+						"pretty:Reports/abc.txt"
+						}
 		)
+
+
 public class RunnerTest {
 
 }

@@ -1,0 +1,6 @@
+
+Scenario: Validate login page and Home Page Functonality # AllFeatureFile/FreeCRM.feature:3
+  Given user is on Login Page                            # Tutorial6.Demo1.user_is_on_login_page()
+  When user enter valid username and password            # Tutorial6.Demo1.user_enter_valid_username_and_password(io.cucumber.datatable.DataTable)
+  Then user click on login button                        # Tutorial6.Demo1.user_click_on_login_button()
+  And user validate home page title                      # Tutorial6.Demo1.user_validate_home_page_title()

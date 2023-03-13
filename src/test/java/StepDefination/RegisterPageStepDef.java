@@ -13,7 +13,7 @@ public class RegisterPageStepDef extends BaseClass{
 
 	@Then("user is on register page")
 	public void user_is_on_register_page() {
-		BaseClass.initiazation();
+		BaseClass.init();
 		driver.get("https://demo.guru99.com/test/newtours/register.php");
 	}
 

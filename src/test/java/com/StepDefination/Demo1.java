@@ -12,15 +12,15 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Demo1 {
 public static WebDriver driver;
 	
-	@Given("user is on login page")
-	public void user_is_on_login_page() {
-//	    WebDriverManager.chromedriver().setup();
-//	    driver =new ChromeDriver();
-		WebDriverManager.firefoxdriver().setup();
-		driver= new FirefoxDriver();
-		
-	    driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-	}
+//	@Given("user is on login page")
+//	public void user_is_on_login_page() {
+////	    WebDriverManager.chromedriver().setup();
+////	    driver =new ChromeDriver();
+//		WebDriverManager.firefoxdriver().setup();
+//		driver= new FirefoxDriver();
+//		
+//	    driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+//	}
 
 	@When("user enter valid username and valid password")
 	public void user_enter_valid_username_and_valid_password() throws InterruptedException {

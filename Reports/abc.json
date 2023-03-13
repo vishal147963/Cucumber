@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-13T10:03:39.730Z",
+        "line": 3,
+        "name": "Validate login page and Home Page Functonality",
+        "description": "",
+        "id": "test-free-crm-application;validate-login-page-and-home-page-functonality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16980046800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "Tutorial6.Demo1.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 356793000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter valid username and password",
+            "match": {
+              "location": "Tutorial6.Demo1.user_enter_valid_username_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "prafulp1010@gmail.com",
+                  "Pr@ful0812"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 285836400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on login button",
+            "match": {
+              "location": "Tutorial6.Demo1.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12991800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user validate home page title",
+            "match": {
+              "location": "Tutorial6.Demo1.user_validate_home_page_title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test Free CRM Application",
+    "description": "",
+    "id": "test-free-crm-application",
+    "keyword": "Feature",
+    "uri": "file:AllFeatureFile/FreeCRM.feature",
+    "tags": []
+  }
+]
