@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-03-13T10:03:39.730Z",
+        "start_timestamp": "2023-03-24T07:18:06.982Z",
         "line": 3,
         "name": "Validate login page and Home Page Functonality",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 16980046800,
+              "duration": 23177079900,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 356793000,
+              "duration": 455669100,
               "status": "passed"
             },
             "line": 5,
@@ -51,7 +51,7 @@
           },
           {
             "result": {
-              "duration": 285836400,
+              "duration": 262849000,
               "status": "passed"
             },
             "line": 8,
@@ -63,7 +63,7 @@
           },
           {
             "result": {
-              "duration": 12991800,
+              "duration": 13992200,
               "status": "passed"
             },
             "line": 9,
